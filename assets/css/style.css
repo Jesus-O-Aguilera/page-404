@@ -113,4 +113,13 @@ main {
   font-weight: 700;
   font-size: 14px;
   display: inline-block;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border: 2px solid transparent;
+}
+.page-404--content .page-404--content-content-button:hover {
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #000;
 }
